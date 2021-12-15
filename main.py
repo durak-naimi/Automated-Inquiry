@@ -17,7 +17,6 @@ from datetime import datetime
 
 
 speech_config = speechsdk.SpeechConfig(subscription=config("speech_subs"), region=config("speech_region"))
-speech_config.endpoint_id = config("speech_endpoint")
 
 
 # Creates a recognizer with the given settings
