@@ -1,0 +1,368 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "GetPlatform",
+      "features": []
+    },
+    {
+      "name": "GetTime",
+      "features": []
+    },
+    {
+      "name": "GetTrain",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    }
+  ],
+  "entities": [],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "CityName",
+      "subLists": [
+        {
+          "canonicalForm": "Patna",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ranchi",
+          "list": []
+        },
+        {
+          "canonicalForm": "Asansol",
+          "list": []
+        },
+        {
+          "canonicalForm": "Banaras",
+          "list": []
+        },
+        {
+          "canonicalForm": "Varanasi",
+          "list": []
+        },
+        {
+          "canonicalForm": "Chennai",
+          "list": []
+        },
+        {
+          "canonicalForm": "Bangalore",
+          "list": []
+        },
+        {
+          "canonicalForm": "Dhanbad",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kolkata",
+          "list": []
+        },
+        {
+          "canonicalForm": "Guwahati",
+          "list": []
+        },
+        {
+          "canonicalForm": "Delhi",
+          "list": []
+        },
+        {
+          "canonicalForm": "Durg",
+          "list": []
+        },
+        {
+          "canonicalForm": "Danapur",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ahmedabad",
+          "list": []
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "TrainName",
+      "subLists": [
+        {
+          "canonicalForm": "Intercity Express",
+          "list": []
+        },
+        {
+          "canonicalForm": "Rajdhani Express",
+          "list": []
+        },
+        {
+          "canonicalForm": "Akal Takht Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Ananya SF Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Asansol Ahmedabad Weekly special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Buddha Purnima Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Danapur Tatanagar",
+          "list": []
+        },
+        {
+          "canonicalForm": "Delhi Darbhanga Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Durg Patna Chhath Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Farakka Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Gareeb Rath",
+          "list": []
+        },
+        {
+          "canonicalForm": "Gurumukhi SF special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Guwahati Barner Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Guwahati Bikaner Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Kolkata Nautnawa Festival Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Mahananda Express",
+          "list": []
+        },
+        {
+          "canonicalForm": "Patna Dhanbad Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Patna Ranchi Express",
+          "list": []
+        },
+        {
+          "canonicalForm": "Rajgirha Express",
+          "list": []
+        },
+        {
+          "canonicalForm": "Sanghamitra Express",
+          "list": []
+        },
+        {
+          "canonicalForm": "Sikkim Mahananda Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Varanasi Patna Memu",
+          "list": []
+        },
+        {
+          "canonicalForm": "Vibhuti SF Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Vikramshila Special",
+          "list": []
+        },
+        {
+          "canonicalForm": "Patna Gaya SF",
+          "list": []
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "aagla train",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "agla train",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "agla train kaun sa hai",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "agla train konsa hai",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "at what time",
+      "intent": "GetTime",
+      "entities": []
+    },
+    {
+      "text": "at what time the train will come",
+      "intent": "GetTime",
+      "entities": []
+    },
+    {
+      "text": "at which platform will it come",
+      "intent": "GetPlatform",
+      "entities": []
+    },
+    {
+      "text": "chennai ke liye agla train kon sa hai",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "chennai next train",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "come on which platform",
+      "intent": "GetPlatform",
+      "entities": []
+    },
+    {
+      "text": "delhi jane wali agli train",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "intercity express time",
+      "intent": "GetTime",
+      "entities": []
+    },
+    {
+      "text": "intercity express which platform",
+      "intent": "GetPlatform",
+      "entities": []
+    },
+    {
+      "text": "kaun sa platform",
+      "intent": "GetPlatform",
+      "entities": []
+    },
+    {
+      "text": "kelly train",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "kitna baje",
+      "intent": "GetTime",
+      "entities": []
+    },
+    {
+      "text": "next train",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "next train to chennai",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "o clock",
+      "intent": "GetTime",
+      "entities": []
+    },
+    {
+      "text": "patna gaya sf which platform",
+      "intent": "GetPlatform",
+      "entities": []
+    },
+    {
+      "text": "patna to asansol next train",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "ranchi ke liye agla train konsa hai",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "sanghamitra express kitna baje aayga?",
+      "intent": "GetTime",
+      "entities": []
+    },
+    {
+      "text": "time of intercity express",
+      "intent": "GetTime",
+      "entities": []
+    },
+    {
+      "text": "time of train",
+      "intent": "GetTime",
+      "entities": []
+    },
+    {
+      "text": "train come where platform",
+      "intent": "GetPlatform",
+      "entities": []
+    },
+    {
+      "text": "train platform",
+      "intent": "GetPlatform",
+      "entities": []
+    },
+    {
+      "text": "train timing of",
+      "intent": "GetTime",
+      "entities": []
+    },
+    {
+      "text": "what is the next train to patna?",
+      "intent": "GetTrain",
+      "entities": []
+    },
+    {
+      "text": "what is the platform of the train",
+      "intent": "GetPlatform",
+      "entities": []
+    },
+    {
+      "text": "where will it come",
+      "intent": "GetPlatform",
+      "entities": []
+    },
+    {
+      "text": "which platform train will come",
+      "intent": "GetPlatform",
+      "entities": []
+    }
+  ],
+  "versionId": "0.1",
+  "name": "TrainIntel",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
