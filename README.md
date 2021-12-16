@@ -19,3 +19,21 @@ Files in the Projects
 4. load.py - parsing user input saved in json format and passing it to LUIS
 5. main.py - consist of main code of all the three services
 6. read.json - to store user input in {"statement":"<user input">} format
+7. TrainIntel.json - Trained LUIS export file
+
+
+How to Install?
+
+1. Install the following modules
+   pip install python-decouple
+   pip install azure-cognitiveservices-speech
+   pip install pytz
+   pip install DateTime
+   pip install Requests
+3. Clone the repository
+4. Create Speech Sercive in Azure - enter the key and region in '.env'
+5. Go to speech studio -->create custom speech --> upload myrecordings.zip as speech dataset
+6. Create luis app in azure using 'Trainintel.json'. Publish and copy paste the luis url ending with 'your query here' in '.env'
+7. Create a qna maker app in azure. Import KB using KnowledgeBase.xslx
+8. get the url and endpoint key of Qna Maker after publishing from curl request and paste it in '.env'
+9. Run the code.
