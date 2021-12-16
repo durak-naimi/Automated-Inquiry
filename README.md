@@ -36,4 +36,4 @@ How to Install?
 6. Create luis app in azure using 'Trainintel.json'. Publish and copy paste the luis url ending with 'your query here' in '.env'
 7. Create a qna maker app in azure. Import KB using KnowledgeBase.xslx
 8. get the url and endpoint key of Qna Maker after publishing from curl request and paste it in '.env'
-9. Run the code.
+9. Run main.py
